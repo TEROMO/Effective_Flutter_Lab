@@ -26,7 +26,7 @@ class CustomAppbar extends StatelessWidget {
       ),
       bottom: TabBar(
         controller: tabController,
-        indicatorSize: TabIndicatorSize.tab,
+        indicatorSize: TabBarIndicatorSize.tab,
         tabs: const <Widget>[
           Tab(
             child: Text(
